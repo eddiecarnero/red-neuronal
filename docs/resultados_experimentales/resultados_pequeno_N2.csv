@@ -1,0 +1,3 @@
+algoritmo,N,dataset_size,tiempo_entrenamiento_s,tiempo_inferencia_s_por_muestra,accuracy,memoria_parametros_bytes,memoria_dataset_bytes
+MLP,2,4,0.00253243,2.295e-07,1,136,64
+Perceptron,2,4,0.000338106,3.85e-08,0.5,24,64
