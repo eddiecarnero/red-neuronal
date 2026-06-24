@@ -29,7 +29,7 @@ endif()
 #   macOS (brew):   brew install sfml
 #   Windows:        vcpkg install sfml
 # ---------------------------------------------------------------------------
-find_package(SFML 2.5 COMPONENTS graphics window system QUIET)
+find_package(SFML COMPONENTS Graphics Window System QUIET)
 
 # ---------------------------------------------------------------------------
 # Libreria nucleo: red neuronal, perceptron, dataset, benchmark
@@ -49,7 +49,7 @@ target_link_libraries(core_lib PUBLIC Eigen3::Eigen)
 # ---------------------------------------------------------------------------
 if(SFML_FOUND)
     add_executable(red_neuronal_app src/main.cpp src/gui/app_gui.cpp)
-    target_link_libraries(red_neuronal_app PRIVATE core_lib sfml-graphics sfml-window sfml-system)
+    target_link_libraries(red_neuronal_app PRIVATE core_lib SFML::Graphics SFML::Window SFML::System)
     target_compile_definitions(red_neuronal_app PRIVATE WITH_GUI=1)
     message(STATUS "SFML encontrado: se compila con interfaz grafica.")
 else()

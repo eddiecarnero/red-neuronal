@@ -1,0 +1,5 @@
+C:/Users/Eddie/Desktop/Proyectos/ADARedNeuronal/red-neuronal-paridad/build/CMakeFiles/core_lib.dir
+C:/Users/Eddie/Desktop/Proyectos/ADARedNeuronal/red-neuronal-paridad/build/CMakeFiles/red_neuronal_app.dir
+C:/Users/Eddie/Desktop/Proyectos/ADARedNeuronal/red-neuronal-paridad/build/CMakeFiles/run_benchmark.dir
+C:/Users/Eddie/Desktop/Proyectos/ADARedNeuronal/red-neuronal-paridad/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Eddie/Desktop/Proyectos/ADARedNeuronal/red-neuronal-paridad/build/CMakeFiles/ZERO_CHECK.dir

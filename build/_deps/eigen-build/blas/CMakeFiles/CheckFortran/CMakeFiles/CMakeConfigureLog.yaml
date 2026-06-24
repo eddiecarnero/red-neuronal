@@ -1,0 +1,1220 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineFortranCompiler.cmake:193 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeFortranCompilerId.F.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
+      - "C:/Users/Eddie/Desktop/Proyectos/ADARedNeuronal/red-neuronal-paridad/build/_deps/eigen-src/cmake/"
+    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFortranCompilerId.F.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Eddie\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Eddie\\.lmstudio\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Python\\bin"
+        - "C:\\sqlite3"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2026.1\\bin"
+        - "C:\\Program Files\\JetBrains\\DataGrip 2026.1.2\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineFortranCompiler.cmake:193 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      Microsoft Visual Studio Version 18.7.0.
+      Copyright (C) Microsoft Corp. All rights reserved.
+      
+      Error catastrófico (Excepción de HRESULT: 0x8000FFFF (E_UNEXPECTED))
+      The operation could not be completed. El parámetro no es correcto. 
+      
+      Uso:
+      devenv  [archivosolución | archivoproyecto | carpeta | cualquierarchivo.ext]  [modificadores]
+      
+      El primer argumento de devenv suele ser un archivo de proyecto o de solución o una carpeta.
+      También puede usar cualquier otro archivo como primer argumento si desea que 
+      el archivo se abra automáticamente en un editor. Cuando especifica un archivo de proyecto, el IDE
+      busca un archivo .sln con el mismo nombre base que el archivo de proyecto en el directorio
+      primario del archivo de proyecto. Si no existe un archivo .sln, el IDE
+      busca un único archivo .sln que haga referencia al proyecto. Si no existe ese archivo
+      .sln único, el IDE crea una solución sin guardar con un nombre de archivo .sln
+      predeterminado que tenga el mismo nombre base que el archivo de proyecto.
+      
+      Sintaxis de la línea de comandos:
+      devenv archivosolución.sln /build [ configuraciónsolución ] [ /project nombreproyectooarchivo [ /projectconfig nombre ] ]
+      Modificadores de la línea de comandos disponibles:
+      
+      /Build			Compila la solución o proyecto con la configuración de
+      			solución especificada. Por ejemplo "Debug". Si se pueden utilizar
+      			varias plataformas, el nombre de la configuración se
+      			debe encerrar entre comillas y debe contener el nombre de la plataforma. Por ejemplo: "Debug|Win32".
+      /Clean			Elimina los resultados de la compilación.
+      /Command		Inicia el IDE y ejecuta el comando.
+      /Deploy			Compila y, a continuación, implementa la configuración de compilación especificada.
+      /DoNotLoadProjects	Abre la solución especificada sin cargar ningún proyecto.
+      /Edit			Abre los archivos especificados en una instancia de la aplicación
+      			en ejecución. Si no hay instancias en ejecución, iniciará
+      			una nueva instancia con un diseño de ventana simplificado.
+      /LCID			Establece el lenguaje predeterminado en el IDE para la IU.
+      /Log			Registra la actividad del IDE en el archivo especificado para la solución de problemas.
+      /NoVSIP			Deshabilita la clave de licencia del desarrollador VSIP para pruebas VSIP.
+      /Out			Anexa el registro de compilación a un archivo especificado.
+      /Project		Especifica el proyecto que se va a compilar, limpiar o implementar.
+      			Se debe usar con /Build, /Rebuild, /Clean o /Deploy.
+      /ProjectConfig		Invalida la configuración del proyecto especificada en la configuración
+      			de la solución. Por ejemplo "Debug". Si pueden darse varias
+      			plataformas, el nombre de la configuración se debe encerrar entre comillas
+      			y contener el nombre de la plataforma. Por ejemplo: "Debug|Win32".
+      			Se debe usar con /Project.
+      /Rebuild		Limpia y, a continuación, compila la solución o el proyecto
+      			con la configuración especificada.
+      /ResetSettings		Restaura la configuración predeterminada del IDE y, opcionalmente,
+      			restablece el archivo de VSSettings especificado.
+      /ResetSkipPkgs		Borra todas las etiquetas SkipLoading agregadas a VSPackages.
+      /Run			Compila y ejecuta la solución especificada.
+      /RunExit		Compila y ejecuta la solución especificada y, a continuación, cierra el IDE.
+      /SafeMode		Inicia el IDE en modo seguro y carga el número mínimo de ventanas.
+      /Upgrade		Actualiza el proyecto o la solución y todos los proyectos que contiene.
+      			Se creará una copia de seguridad de estos archivos según se estime oportuno. Consulte
+      			el tema de ayuda sobre el "Asistente para conversión de Visual Studio" si desea
+      			obtener más información sobre el proceso de copia de seguridad.
+      
+      Modificadores específicos del producto:
+      
+      /debugexe	Abrir el archivo ejecutable especificado que se va a depurar. El resto de
+      		archivo ejecutable como sus argumentos.
+      /diff		Compara dos archivos.  Toma cuatro parámetros:
+      		SourceFile, TargetFile, SourceDisplayName(opcional),
+      		TargetDisplayName(opcional)
+      /TfsLink	Abre Team Explorer e inicia un visor para el URI de artefacto 
+      		proporcionado si hay alguno registrado.
+      /useenv		Utilizar las variables de entorno PATH, INCLUDE, LIBPATH y LIB
+      		en lugar de las rutas de acceso IDE para compilaciones de VC++.
+      
+      Para asociar el depurador desde la línea de comandos, utilice:
+      	VsJITDebugger.exe -p <pid>
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineFortranCompiler.cmake:193 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeFortranCompilerId.F.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/"
+      - "C:/Users/Eddie/Desktop/Proyectos/ADARedNeuronal/red-neuronal-paridad/build/_deps/eigen-src/cmake/"
+    found: "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFortranCompilerId.F.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Eddie\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Eddie\\.lmstudio\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Python\\bin"
+        - "C:\\sqlite3"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2026.1\\bin"
+        - "C:\\Program Files\\JetBrains\\DataGrip 2026.1.2\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineFortranCompiler.cmake:193 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:17 (project)"
+    message: |
+      Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" failed.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      
+      Microsoft Visual Studio Version 18.7.0.
+      Copyright (C) Microsoft Corp. All rights reserved.
+      
+      Error catastrófico (Excepción de HRESULT: 0x8000FFFF (E_UNEXPECTED))
+      The operation could not be completed. El parámetro no es correcto. 
+      
+      Uso:
+      devenv  [archivosolución | archivoproyecto | carpeta | cualquierarchivo.ext]  [modificadores]
+      
+      El primer argumento de devenv suele ser un archivo de proyecto o de solución o una carpeta.
+      También puede usar cualquier otro archivo como primer argumento si desea que 
+      el archivo se abra automáticamente en un editor. Cuando especifica un archivo de proyecto, el IDE
+      busca un archivo .sln con el mismo nombre base que el archivo de proyecto en el directorio
+      primario del archivo de proyecto. Si no existe un archivo .sln, el IDE
+      busca un único archivo .sln que haga referencia al proyecto. Si no existe ese archivo
+      .sln único, el IDE crea una solución sin guardar con un nombre de archivo .sln
+      predeterminado que tenga el mismo nombre base que el archivo de proyecto.
+      
+      Sintaxis de la línea de comandos:
+      devenv archivosolución.sln /build [ configuraciónsolución ] [ /project nombreproyectooarchivo [ /projectconfig nombre ] ]
+      Modificadores de la línea de comandos disponibles:
+      
+      /Build			Compila la solución o proyecto con la configuración de
+      			solución especificada. Por ejemplo "Debug". Si se pueden utilizar
+      			varias plataformas, el nombre de la configuración se
+      			debe encerrar entre comillas y debe contener el nombre de la plataforma. Por ejemplo: "Debug|Win32".
+      /Clean			Elimina los resultados de la compilación.
+      /Command		Inicia el IDE y ejecuta el comando.
+      /Deploy			Compila y, a continuación, implementa la configuración de compilación especificada.
+      /DoNotLoadProjects	Abre la solución especificada sin cargar ningún proyecto.
+      /Edit			Abre los archivos especificados en una instancia de la aplicación
+      			en ejecución. Si no hay instancias en ejecución, iniciará
+      			una nueva instancia con un diseño de ventana simplificado.
+      /LCID			Establece el lenguaje predeterminado en el IDE para la IU.
+      /Log			Registra la actividad del IDE en el archivo especificado para la solución de problemas.
+      /NoVSIP			Deshabilita la clave de licencia del desarrollador VSIP para pruebas VSIP.
+      /Out			Anexa el registro de compilación a un archivo especificado.
+      /Project		Especifica el proyecto que se va a compilar, limpiar o implementar.
+      			Se debe usar con /Build, /Rebuild, /Clean o /Deploy.
+      /ProjectConfig		Invalida la configuración del proyecto especificada en la configuración
+      			de la solución. Por ejemplo "Debug". Si pueden darse varias
+      			plataformas, el nombre de la configuración se debe encerrar entre comillas
+      			y contener el nombre de la plataforma. Por ejemplo: "Debug|Win32".
+      			Se debe usar con /Project.
+      /Rebuild		Limpia y, a continuación, compila la solución o el proyecto
+      			con la configuración especificada.
+      /ResetSettings		Restaura la configuración predeterminada del IDE y, opcionalmente,
+      			restablece el archivo de VSSettings especificado.
+      /ResetSkipPkgs		Borra todas las etiquetas SkipLoading agregadas a VSPackages.
+      /Run			Compila y ejecuta la solución especificada.
+      /RunExit		Compila y ejecuta la solución especificada y, a continuación, cierra el IDE.
+      /SafeMode		Inicia el IDE en modo seguro y carga el número mínimo de ventanas.
+      /Upgrade		Actualiza el proyecto o la solución y todos los proyectos que contiene.
+      			Se creará una copia de seguridad de estos archivos según se estime oportuno. Consulte
+      			el tema de ayuda sobre el "Asistente para conversión de Visual Studio" si desea
+      			obtener más información sobre el proceso de copia de seguridad.
+      
+      Modificadores específicos del producto:
+      
+      /debugexe	Abrir el archivo ejecutable especificado que se va a depurar. El resto de
+      		archivo ejecutable como sus argumentos.
+      /diff		Compara dos archivos.  Toma cuatro parámetros:
+      		SourceFile, TargetFile, SourceDisplayName(opcional),
+      		TargetDisplayName(opcional)
+      /TfsLink	Abre Team Explorer e inicia un visor para el URI de artefacto 
+      		proporcionado si hay alguno registrado.
+      /useenv		Utilizar las variables de entorno PATH, INCLUDE, LIBPATH y LIB
+      		en lugar de las rutas de acceso IDE para compilaciones de VC++.
+      
+      Para asociar el depurador desde la línea de comandos, utilice:
+      	VsJITDebugger.exe -p <pid>
+      
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:102 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineFortranCompiler.cmake:316 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Users/Eddie/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Eddie/vcpkg/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Eddie/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Eddie/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Eddie/.lmstudio/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/"
+      - "C:/Users/Eddie/AppData/Local/Python/bin/"
+      - "C:/sqlite3/"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/Eddie/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Program Files/JetBrains/PyCharm 2026.1/bin/"
+      - "C:/Program Files/JetBrains/DataGrip 2026.1.2/bin/"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity IDE/bin/"
+    searched_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/link"
+      - "C:/Python314/Scripts/link.com"
+      - "C:/Python314/Scripts/link.exe"
+      - "C:/Python314/Scripts/link"
+      - "C:/Python314/link.com"
+      - "C:/Python314/link.exe"
+      - "C:/Python314/link"
+      - "C:/Windows/System32/link.com"
+      - "C:/Windows/System32/link.exe"
+      - "C:/Windows/System32/link"
+      - "C:/Windows/link.com"
+      - "C:/Windows/link.exe"
+      - "C:/Windows/link"
+      - "C:/Windows/System32/wbem/link.com"
+      - "C:/Windows/System32/wbem/link.exe"
+      - "C:/Windows/System32/wbem/link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/link"
+      - "C:/Windows/System32/OpenSSH/link.com"
+      - "C:/Windows/System32/OpenSSH/link.exe"
+      - "C:/Windows/System32/OpenSSH/link"
+      - "C:/MinGW/bin/link.com"
+      - "C:/MinGW/bin/link.exe"
+      - "C:/MinGW/bin/link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/link"
+      - "C:/Program Files/Tailscale/link.com"
+      - "C:/Program Files/Tailscale/link.exe"
+      - "C:/Program Files/Tailscale/link"
+      - "C:/ProgramData/chocolatey/bin/link.com"
+      - "C:/ProgramData/chocolatey/bin/link.exe"
+      - "C:/ProgramData/chocolatey/bin/link"
+      - "C:/Users/Eddie/AppData/Local/nvm/link.com"
+      - "C:/Users/Eddie/AppData/Local/nvm/link.exe"
+      - "C:/Users/Eddie/AppData/Local/nvm/link"
+      - "C:/nvm4w/nodejs/link.com"
+      - "C:/nvm4w/nodejs/link.exe"
+      - "C:/nvm4w/nodejs/link"
+      - "C:/Program Files/Docker/Docker/resources/bin/link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/link"
+      - "C:/Program Files/Git/cmd/link.com"
+      - "C:/Program Files/Git/cmd/link.exe"
+      - "C:/Program Files/Git/cmd/link"
+      - "C:/Users/Eddie/vcpkg/link.com"
+      - "C:/Users/Eddie/vcpkg/link.exe"
+      - "C:/Users/Eddie/vcpkg/link"
+      - "C:/Program Files/CMake/bin/link.com"
+      - "C:/Program Files/CMake/bin/link.exe"
+      - "C:/Program Files/CMake/bin/link"
+      - "C:/Users/Eddie/AppData/Local/Microsoft/WindowsApps/link.com"
+      - "C:/Users/Eddie/AppData/Local/Microsoft/WindowsApps/link.exe"
+      - "C:/Users/Eddie/AppData/Local/Microsoft/WindowsApps/link"
+      - "C:/Users/Eddie/AppData/Local/Programs/Microsoft VS Code/bin/link.com"
+      - "C:/Users/Eddie/AppData/Local/Programs/Microsoft VS Code/bin/link.exe"
+      - "C:/Users/Eddie/AppData/Local/Programs/Microsoft VS Code/bin/link"
+      - "C:/Users/Eddie/.lmstudio/bin/link.com"
+      - "C:/Users/Eddie/.lmstudio/bin/link.exe"
+      - "C:/Users/Eddie/.lmstudio/bin/link"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/link.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/link.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/link"
+      - "C:/Users/Eddie/AppData/Local/Python/bin/link.com"
+      - "C:/Users/Eddie/AppData/Local/Python/bin/link.exe"
+      - "C:/Users/Eddie/AppData/Local/Python/bin/link"
+      - "C:/sqlite3/link.com"
+      - "C:/sqlite3/link.exe"
+      - "C:/sqlite3/link"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity/bin/link.com"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity/bin/link.exe"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity/bin/link"
+      - "C:/Users/Eddie/AppData/Local/PowerToys/DSCModules/link.com"
+      - "C:/Users/Eddie/AppData/Local/PowerToys/DSCModules/link.exe"
+      - "C:/Users/Eddie/AppData/Local/PowerToys/DSCModules/link"
+      - "C:/Program Files/JetBrains/PyCharm 2026.1/bin/link.com"
+      - "C:/Program Files/JetBrains/PyCharm 2026.1/bin/link.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2026.1/bin/link"
+      - "C:/Program Files/JetBrains/DataGrip 2026.1.2/bin/link.com"
+      - "C:/Program Files/JetBrains/DataGrip 2026.1.2/bin/link.exe"
+      - "C:/Program Files/JetBrains/DataGrip 2026.1.2/bin/link"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity IDE/bin/link.com"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity IDE/bin/link.exe"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity IDE/bin/link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Eddie\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Eddie\\.lmstudio\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Python\\bin"
+        - "C:\\sqlite3"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2026.1\\bin"
+        - "C:\\Program Files\\JetBrains\\DataGrip 2026.1.2\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:64 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineFortranCompiler.cmake:316 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Users/Eddie/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Eddie/vcpkg/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Eddie/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Eddie/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Eddie/.lmstudio/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/"
+      - "C:/Users/Eddie/AppData/Local/Python/bin/"
+      - "C:/sqlite3/"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/Eddie/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Program Files/JetBrains/PyCharm 2026.1/bin/"
+      - "C:/Program Files/JetBrains/DataGrip 2026.1.2/bin/"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity IDE/bin/"
+    searched_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Python314/Scripts/lld-link.com"
+      - "C:/Python314/Scripts/lld-link.exe"
+      - "C:/Python314/Scripts/lld-link"
+      - "C:/Python314/lld-link.com"
+      - "C:/Python314/lld-link.exe"
+      - "C:/Python314/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/MinGW/bin/lld-link.com"
+      - "C:/MinGW/bin/lld-link.exe"
+      - "C:/MinGW/bin/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/Tailscale/lld-link.com"
+      - "C:/Program Files/Tailscale/lld-link.exe"
+      - "C:/Program Files/Tailscale/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/Users/Eddie/AppData/Local/nvm/lld-link.com"
+      - "C:/Users/Eddie/AppData/Local/nvm/lld-link.exe"
+      - "C:/Users/Eddie/AppData/Local/nvm/lld-link"
+      - "C:/nvm4w/nodejs/lld-link.com"
+      - "C:/nvm4w/nodejs/lld-link.exe"
+      - "C:/nvm4w/nodejs/lld-link"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Users/Eddie/vcpkg/lld-link.com"
+      - "C:/Users/Eddie/vcpkg/lld-link.exe"
+      - "C:/Users/Eddie/vcpkg/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/Eddie/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/Eddie/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/Eddie/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/Eddie/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/Eddie/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/Eddie/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/Eddie/.lmstudio/bin/lld-link.com"
+      - "C:/Users/Eddie/.lmstudio/bin/lld-link.exe"
+      - "C:/Users/Eddie/.lmstudio/bin/lld-link"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/lld-link"
+      - "C:/Users/Eddie/AppData/Local/Python/bin/lld-link.com"
+      - "C:/Users/Eddie/AppData/Local/Python/bin/lld-link.exe"
+      - "C:/Users/Eddie/AppData/Local/Python/bin/lld-link"
+      - "C:/sqlite3/lld-link.com"
+      - "C:/sqlite3/lld-link.exe"
+      - "C:/sqlite3/lld-link"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity/bin/lld-link.com"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity/bin/lld-link.exe"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity/bin/lld-link"
+      - "C:/Users/Eddie/AppData/Local/PowerToys/DSCModules/lld-link.com"
+      - "C:/Users/Eddie/AppData/Local/PowerToys/DSCModules/lld-link.exe"
+      - "C:/Users/Eddie/AppData/Local/PowerToys/DSCModules/lld-link"
+      - "C:/Program Files/JetBrains/PyCharm 2026.1/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/PyCharm 2026.1/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2026.1/bin/lld-link"
+      - "C:/Program Files/JetBrains/DataGrip 2026.1.2/bin/lld-link.com"
+      - "C:/Program Files/JetBrains/DataGrip 2026.1.2/bin/lld-link.exe"
+      - "C:/Program Files/JetBrains/DataGrip 2026.1.2/bin/lld-link"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity IDE/bin/lld-link.com"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity IDE/bin/lld-link.exe"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity IDE/bin/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Eddie\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Eddie\\.lmstudio\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Python\\bin"
+        - "C:\\sqlite3"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2026.1\\bin"
+        - "C:\\Program Files\\JetBrains\\DataGrip 2026.1.2\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineFortranCompiler.cmake:316 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Users/Eddie/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Eddie/vcpkg/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Eddie/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Eddie/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Eddie/.lmstudio/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/"
+      - "C:/Users/Eddie/AppData/Local/Python/bin/"
+      - "C:/sqlite3/"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/Eddie/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Program Files/JetBrains/PyCharm 2026.1/bin/"
+      - "C:/Program Files/JetBrains/DataGrip 2026.1.2/bin/"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity IDE/bin/"
+    searched_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/link.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/link.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/link"
+      - "C:/Python314/Scripts/link.com"
+      - "C:/Python314/Scripts/link.exe"
+      - "C:/Python314/Scripts/link"
+      - "C:/Python314/link.com"
+      - "C:/Python314/link.exe"
+      - "C:/Python314/link"
+      - "C:/Windows/System32/link.com"
+      - "C:/Windows/System32/link.exe"
+      - "C:/Windows/System32/link"
+      - "C:/Windows/link.com"
+      - "C:/Windows/link.exe"
+      - "C:/Windows/link"
+      - "C:/Windows/System32/wbem/link.com"
+      - "C:/Windows/System32/wbem/link.exe"
+      - "C:/Windows/System32/wbem/link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/link"
+      - "C:/Windows/System32/OpenSSH/link.com"
+      - "C:/Windows/System32/OpenSSH/link.exe"
+      - "C:/Windows/System32/OpenSSH/link"
+      - "C:/MinGW/bin/link.com"
+      - "C:/MinGW/bin/link.exe"
+      - "C:/MinGW/bin/link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/link"
+      - "C:/Program Files/Tailscale/link.com"
+      - "C:/Program Files/Tailscale/link.exe"
+      - "C:/Program Files/Tailscale/link"
+      - "C:/ProgramData/chocolatey/bin/link.com"
+      - "C:/ProgramData/chocolatey/bin/link.exe"
+      - "C:/ProgramData/chocolatey/bin/link"
+      - "C:/Users/Eddie/AppData/Local/nvm/link.com"
+      - "C:/Users/Eddie/AppData/Local/nvm/link.exe"
+      - "C:/Users/Eddie/AppData/Local/nvm/link"
+      - "C:/nvm4w/nodejs/link.com"
+      - "C:/nvm4w/nodejs/link.exe"
+      - "C:/nvm4w/nodejs/link"
+      - "C:/Program Files/Docker/Docker/resources/bin/link.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/link.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/link"
+      - "C:/Program Files/Git/cmd/link.com"
+      - "C:/Program Files/Git/cmd/link.exe"
+      - "C:/Program Files/Git/cmd/link"
+      - "C:/Users/Eddie/vcpkg/link.com"
+      - "C:/Users/Eddie/vcpkg/link.exe"
+      - "C:/Users/Eddie/vcpkg/link"
+      - "C:/Program Files/CMake/bin/link.com"
+      - "C:/Program Files/CMake/bin/link.exe"
+      - "C:/Program Files/CMake/bin/link"
+      - "C:/Users/Eddie/AppData/Local/Microsoft/WindowsApps/link.com"
+      - "C:/Users/Eddie/AppData/Local/Microsoft/WindowsApps/link.exe"
+      - "C:/Users/Eddie/AppData/Local/Microsoft/WindowsApps/link"
+      - "C:/Users/Eddie/AppData/Local/Programs/Microsoft VS Code/bin/link.com"
+      - "C:/Users/Eddie/AppData/Local/Programs/Microsoft VS Code/bin/link.exe"
+      - "C:/Users/Eddie/AppData/Local/Programs/Microsoft VS Code/bin/link"
+      - "C:/Users/Eddie/.lmstudio/bin/link.com"
+      - "C:/Users/Eddie/.lmstudio/bin/link.exe"
+      - "C:/Users/Eddie/.lmstudio/bin/link"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/link.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/link.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/link"
+      - "C:/Users/Eddie/AppData/Local/Python/bin/link.com"
+      - "C:/Users/Eddie/AppData/Local/Python/bin/link.exe"
+      - "C:/Users/Eddie/AppData/Local/Python/bin/link"
+      - "C:/sqlite3/link.com"
+      - "C:/sqlite3/link.exe"
+      - "C:/sqlite3/link"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity/bin/link.com"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity/bin/link.exe"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity/bin/link"
+      - "C:/Users/Eddie/AppData/Local/PowerToys/DSCModules/link.com"
+      - "C:/Users/Eddie/AppData/Local/PowerToys/DSCModules/link.exe"
+      - "C:/Users/Eddie/AppData/Local/PowerToys/DSCModules/link"
+      - "C:/Program Files/JetBrains/PyCharm 2026.1/bin/link.com"
+      - "C:/Program Files/JetBrains/PyCharm 2026.1/bin/link.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2026.1/bin/link"
+      - "C:/Program Files/JetBrains/DataGrip 2026.1.2/bin/link.com"
+      - "C:/Program Files/JetBrains/DataGrip 2026.1.2/bin/link.exe"
+      - "C:/Program Files/JetBrains/DataGrip 2026.1.2/bin/link"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity IDE/bin/link.com"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity IDE/bin/link.exe"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity IDE/bin/link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Eddie\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Eddie\\.lmstudio\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Python\\bin"
+        - "C:\\sqlite3"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2026.1\\bin"
+        - "C:\\Program Files\\JetBrains\\DataGrip 2026.1.2\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineFortranCompiler.cmake:316 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Users/Eddie/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Eddie/vcpkg/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Eddie/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Eddie/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Eddie/.lmstudio/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/"
+      - "C:/Users/Eddie/AppData/Local/Python/bin/"
+      - "C:/sqlite3/"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/Eddie/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Program Files/JetBrains/PyCharm 2026.1/bin/"
+      - "C:/Program Files/JetBrains/DataGrip 2026.1.2/bin/"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity IDE/bin/"
+    searched_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Python314/Scripts/mt.com"
+      - "C:/Python314/Scripts/mt.exe"
+      - "C:/Python314/Scripts/mt"
+      - "C:/Python314/mt.com"
+      - "C:/Python314/mt.exe"
+      - "C:/Python314/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/MinGW/bin/mt.com"
+      - "C:/MinGW/bin/mt.exe"
+      - "C:/MinGW/bin/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files/Tailscale/mt.com"
+      - "C:/Program Files/Tailscale/mt.exe"
+      - "C:/Program Files/Tailscale/mt"
+      - "C:/ProgramData/chocolatey/bin/mt.com"
+      - "C:/ProgramData/chocolatey/bin/mt.exe"
+      - "C:/ProgramData/chocolatey/bin/mt"
+      - "C:/Users/Eddie/AppData/Local/nvm/mt.com"
+      - "C:/Users/Eddie/AppData/Local/nvm/mt.exe"
+      - "C:/Users/Eddie/AppData/Local/nvm/mt"
+      - "C:/nvm4w/nodejs/mt.com"
+      - "C:/nvm4w/nodejs/mt.exe"
+      - "C:/nvm4w/nodejs/mt"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Users/Eddie/vcpkg/mt.com"
+      - "C:/Users/Eddie/vcpkg/mt.exe"
+      - "C:/Users/Eddie/vcpkg/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Users/Eddie/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/Eddie/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/Eddie/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/Eddie/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/Eddie/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/Eddie/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/Eddie/.lmstudio/bin/mt.com"
+      - "C:/Users/Eddie/.lmstudio/bin/mt.exe"
+      - "C:/Users/Eddie/.lmstudio/bin/mt"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/mt.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/mt.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/mt"
+      - "C:/Users/Eddie/AppData/Local/Python/bin/mt.com"
+      - "C:/Users/Eddie/AppData/Local/Python/bin/mt.exe"
+      - "C:/Users/Eddie/AppData/Local/Python/bin/mt"
+      - "C:/sqlite3/mt.com"
+      - "C:/sqlite3/mt.exe"
+      - "C:/sqlite3/mt"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity/bin/mt.com"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity/bin/mt.exe"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity/bin/mt"
+      - "C:/Users/Eddie/AppData/Local/PowerToys/DSCModules/mt.com"
+      - "C:/Users/Eddie/AppData/Local/PowerToys/DSCModules/mt.exe"
+      - "C:/Users/Eddie/AppData/Local/PowerToys/DSCModules/mt"
+      - "C:/Program Files/JetBrains/PyCharm 2026.1/bin/mt.com"
+      - "C:/Program Files/JetBrains/PyCharm 2026.1/bin/mt.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2026.1/bin/mt"
+      - "C:/Program Files/JetBrains/DataGrip 2026.1.2/bin/mt.com"
+      - "C:/Program Files/JetBrains/DataGrip 2026.1.2/bin/mt.exe"
+      - "C:/Program Files/JetBrains/DataGrip 2026.1.2/bin/mt"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity IDE/bin/mt.com"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity IDE/bin/mt.exe"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity IDE/bin/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Eddie\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Eddie\\.lmstudio\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Python\\bin"
+        - "C:\\sqlite3"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2026.1\\bin"
+        - "C:\\Program Files\\JetBrains\\DataGrip 2026.1.2\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.4/Modules/CMakeDetermineFortranCompiler.cmake:316 (include)"
+      - "CMakeLists.txt:17 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Python314/Scripts/"
+      - "C:/Python314/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Users/Eddie/AppData/Local/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/Eddie/vcpkg/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/Eddie/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/Eddie/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/Eddie/.lmstudio/bin/"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/"
+      - "C:/Users/Eddie/AppData/Local/Python/bin/"
+      - "C:/sqlite3/"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity/bin/"
+      - "C:/Users/Eddie/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Program Files/JetBrains/PyCharm 2026.1/bin/"
+      - "C:/Program Files/JetBrains/DataGrip 2026.1.2/bin/"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity IDE/bin/"
+    searched_directories:
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lib.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lib.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/lib"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lib.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lib.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lib"
+      - "C:/Python314/Scripts/lib.com"
+      - "C:/Python314/Scripts/lib.exe"
+      - "C:/Python314/Scripts/lib"
+      - "C:/Python314/lib.com"
+      - "C:/Python314/lib.exe"
+      - "C:/Python314/lib"
+      - "C:/Windows/System32/lib.com"
+      - "C:/Windows/System32/lib.exe"
+      - "C:/Windows/System32/lib"
+      - "C:/Windows/lib.com"
+      - "C:/Windows/lib.exe"
+      - "C:/Windows/lib"
+      - "C:/Windows/System32/wbem/lib.com"
+      - "C:/Windows/System32/wbem/lib.exe"
+      - "C:/Windows/System32/wbem/lib"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lib"
+      - "C:/Windows/System32/OpenSSH/lib.com"
+      - "C:/Windows/System32/OpenSSH/lib.exe"
+      - "C:/Windows/System32/OpenSSH/lib"
+      - "C:/MinGW/bin/lib.com"
+      - "C:/MinGW/bin/lib.exe"
+      - "C:/MinGW/bin/lib"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib"
+      - "C:/Program Files/Tailscale/lib.com"
+      - "C:/Program Files/Tailscale/lib.exe"
+      - "C:/Program Files/Tailscale/lib"
+      - "C:/ProgramData/chocolatey/bin/lib.com"
+      - "C:/ProgramData/chocolatey/bin/lib.exe"
+      - "C:/ProgramData/chocolatey/bin/lib"
+      - "C:/Users/Eddie/AppData/Local/nvm/lib.com"
+      - "C:/Users/Eddie/AppData/Local/nvm/lib.exe"
+      - "C:/Users/Eddie/AppData/Local/nvm/lib"
+      - "C:/nvm4w/nodejs/lib.com"
+      - "C:/nvm4w/nodejs/lib.exe"
+      - "C:/nvm4w/nodejs/lib"
+      - "C:/Program Files/Docker/Docker/resources/bin/lib.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/lib.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/lib"
+      - "C:/Program Files/Git/cmd/lib.com"
+      - "C:/Program Files/Git/cmd/lib.exe"
+      - "C:/Program Files/Git/cmd/lib"
+      - "C:/Users/Eddie/vcpkg/lib.com"
+      - "C:/Users/Eddie/vcpkg/lib.exe"
+      - "C:/Users/Eddie/vcpkg/lib"
+      - "C:/Program Files/CMake/bin/lib.com"
+      - "C:/Program Files/CMake/bin/lib.exe"
+      - "C:/Program Files/CMake/bin/lib"
+      - "C:/Users/Eddie/AppData/Local/Microsoft/WindowsApps/lib.com"
+      - "C:/Users/Eddie/AppData/Local/Microsoft/WindowsApps/lib.exe"
+      - "C:/Users/Eddie/AppData/Local/Microsoft/WindowsApps/lib"
+      - "C:/Users/Eddie/AppData/Local/Programs/Microsoft VS Code/bin/lib.com"
+      - "C:/Users/Eddie/AppData/Local/Programs/Microsoft VS Code/bin/lib.exe"
+      - "C:/Users/Eddie/AppData/Local/Programs/Microsoft VS Code/bin/lib"
+      - "C:/Users/Eddie/.lmstudio/bin/lib.com"
+      - "C:/Users/Eddie/.lmstudio/bin/lib.exe"
+      - "C:/Users/Eddie/.lmstudio/bin/lib"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/lib.com"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/lib.exe"
+      - "C:/Program Files/JetBrains/IntelliJ IDEA 2025.3.3/bin/lib"
+      - "C:/Users/Eddie/AppData/Local/Python/bin/lib.com"
+      - "C:/Users/Eddie/AppData/Local/Python/bin/lib.exe"
+      - "C:/Users/Eddie/AppData/Local/Python/bin/lib"
+      - "C:/sqlite3/lib.com"
+      - "C:/sqlite3/lib.exe"
+      - "C:/sqlite3/lib"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity/bin/lib.com"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity/bin/lib.exe"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity/bin/lib"
+      - "C:/Users/Eddie/AppData/Local/PowerToys/DSCModules/lib.com"
+      - "C:/Users/Eddie/AppData/Local/PowerToys/DSCModules/lib.exe"
+      - "C:/Users/Eddie/AppData/Local/PowerToys/DSCModules/lib"
+      - "C:/Program Files/JetBrains/PyCharm 2026.1/bin/lib.com"
+      - "C:/Program Files/JetBrains/PyCharm 2026.1/bin/lib.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2026.1/bin/lib"
+      - "C:/Program Files/JetBrains/DataGrip 2026.1.2/bin/lib.com"
+      - "C:/Program Files/JetBrains/DataGrip 2026.1.2/bin/lib.exe"
+      - "C:/Program Files/JetBrains/DataGrip 2026.1.2/bin/lib"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity IDE/bin/lib.com"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity IDE/bin/lib.exe"
+      - "C:/Users/Eddie/AppData/Local/Programs/Antigravity IDE/bin/lib"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Python314\\Scripts\\"
+        - "C:\\Python314\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\MinGW\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\Eddie\\vcpkg"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\Eddie\\.lmstudio\\bin"
+        - "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2025.3.3\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Python\\bin"
+        - "C:\\sqlite3"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Programs\\Antigravity\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\PowerToys\\DSCModules\\"
+        - "C:\\Program Files\\JetBrains\\PyCharm 2026.1\\bin"
+        - "C:\\Program Files\\JetBrains\\DataGrip 2026.1.2\\bin"
+        - "C:\\Users\\Eddie\\AppData\\Local\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "C:\\Users\\Eddie\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+...

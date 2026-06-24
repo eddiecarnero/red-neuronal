@@ -1,0 +1,10 @@
+^C:\USERS\EDDIE\DESKTOP\PROYECTOS\ADAREDNEURONAL\RED-NEURONAL-PARIDAD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Eddie/Desktop/Proyectos/ADARedNeuronal/red-neuronal-paridad -BC:/Users/Eddie/Desktop/Proyectos/ADARedNeuronal/red-neuronal-paridad/build --check-stamp-file C:/Users/Eddie/Desktop/Proyectos/ADARedNeuronal/red-neuronal-paridad/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
